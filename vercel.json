@@ -1,0 +1,9 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "BD5.3_CW/index.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "BD5.3_CW/index.js" }
+    ]
+  }
